@@ -8,7 +8,7 @@ function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-blue-600 text-white shadow-md">
+    <nav className="text-white shadow-md sticky top-0 z-50 bg-blue-600">
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-5">
 
         {/* Logo */}
